@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salão Anala - Cortes & Preços ✂️💎</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #f7d2df;
+            background-image: url('https://lh3.googleusercontent.com/rd-gg-dl/AHiVA1mfdcw-5eyl7tRBEMt7IzSYgQTUioU6pBr3plh4ar5F5r1ieCjc9Y630GV8vsiCUb28GI2e882c9HLcMr4bfKblxj9nkznK6w9GpJer5NsGAqh23yUvfcnWtfE7mrnoIY1pV6mnir1wpDJQiiAIpzP2yLiE75WjsUPQ3qKZY7X1ngCKwdLQxjskh5UcmLUfHys1KDSMKY5Lun8Lpyb_U8EtQu-hfxQASwl20jpR0ZT7Wn95BCsdP21x6-8AOTV6a4dJyIpQoGeERePWQ1RIj9gTOyCAriFH9HTCevV_cMqmrMLFeWAUuSIWdtC0W-hT2XsS109JQVeyU5WsNFLIohTZ7Pj1euhwJUnS3nJj8wPj2hMPPqYvqoGbherVTMxEzjWg0X1XBaz_iWZejyCr8sovytTowmeYp4nEN3h7nhevz2dqqjPrupirficEVcAJbAU-z-dRws5bl-O7XiPkuBbGudKfI3qnu_p0K0CwpFDN0zTS4ZOOv2bG8FLTHUo64FnGEggvv8TeACDVYS7GsU_brwl8czjANeSHaRgcn3K2htlqiI4bRxPCJVaQa1XiNaj0oo_R1TFjLKea_1g9kbUQ3zNF-2wNnlCXVMrdw1zh-Ox5Uxd_Gn7xAWG-oPl24iGhdnz0NpfXcrgOBunYfp4xYypoDPm-uYttB9xVPw_q3vO9nG27dmmkAsAPe0Od7t04K2cBAmcWHL6h_lVIuC_LmWmGhiRFWpe4vhgtQ4C7iPQraH1High-oqbPxD8kZCcVVxvFjW2QzFC8Ayj9VkVNHfMn5Idn47sHbMFQ5j2YhYuRu5bk1EpSb33uHFaMsbQxWx3N4N_Y8sNC9kBvfHuZUl24NL9IZZlYf5AeU-oOVtHdBLeeBjYJOEFO3TZyVEBM8wSKXaQZkaOHWausQNdMYwLKV6XmcctOVKo81AcRcp7GnDT-yj4l_TeNbFfnkUbCEVVK6_ivrCIAsrKuyUP8h93cUhjtV3ZzJamqGwfflLVwwoz8bIxkvfOpPG8g3m-2urHBkpAWgEtSQa0LALqkBCawHJ5kadpLjdoGo5-G8wL8gOngsTCubGxZ9a1HjUVbBrl7j8qpgSYwda4O286l1IdUppzAo9LYR0RFGxsCK5e-gYgA0X1eCNGO3Ys4bxrCEKFhydAFB2rdqvVgMciZrzJFLOZVUSlEmgeYUO7tglX9Rpb2Y5onpwKCjFLMNGXjYqQblSIw2OnZjBjjOrmzh_JmMFkXpFkkGv63Dm7YclfMe0S1owR4jhEKWHzYj8Us=s1024-rj');
+            background-repeat: repeat;
+            background-size: 350px;
+            background-attachment: fixed;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            color: #4a2e35;
+        }
+
+        .container-precos {
+            max-width: 650px;
+            margin: 30px auto;
+            background-color: rgba(255, 255, 255, 0.95);
+            border: 3px solid #ff80ab;
+            border-radius: 20px;
+            padding: 25px;
+            box-shadow: 0 8px 24px rgba(219, 112, 147, 0.3);
+            text-align: center;
+        }
+
+        h1 {
+            color: #d81b60;
+            margin-top: 0;
+        }
+
+        .tabela-precos {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        .tabela-precos th, .tabela-precos td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #ffcdd2;
+            text-align: left;
+        }
+
+        .tabela-precos th {
+            background-color: #fce4ec;
+            color: #880e4f;
+            font-size: 1rem;
+        }
+
+        .tabela-precos td.preco {
+            font-weight: bold;
+            color: #d81b60;
+            text-align: right;
+        }
+
+        .btn-acao {
+            display: inline-block;
+            background-color: #e91e63;
+            color: #ffffff;
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-weight: bold;
+            text-decoration: none;
+            margin: 8px 5px;
+            transition: background-color 0.3s;
+            box-shadow: 0 4px 10px rgba(233, 30, 99, 0.3);
+        }
+
+        .btn-acao:hover {
+            background-color: #c2185b;
+        }
+
+        .btn-outline {
+            background-color: #ffffff;
+            color: #d81b60;
+            border: 2px solid #d81b60;
+        }
+
+        .btn-outline:hover {
+            background-color: #fce4ec;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-precos">
+        <h1>✂️ Cortes & Tabela de Preços 💎✨</h1>
+        <p>Confira os nossos serviços exclusivos feitos para realçar a sua beleza! 💋</p>
+
+        <table class="tabela-precos">
+            <thead>
+                <tr>
+                    <th>Serviço / Corte 🌸</th>
+                    <th style="text-align: right;">Valor 💰</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>💇‍♀️ Corte Feminino + Escova</td>
+                    <td class="preco">R$ 80,00</td>
+                </tr>
+                <tr>
+                    <td>💅 Manicure & Pedicure Completa</td>
+                    <td class="preco">R$ 50,00</td>
+                </tr>
+                <tr>
+                    <td>💄 Maquiagem Social Diva</td>
+                    <td class="preco">R$ 120,00</td>
+                </tr>
+                <tr>
+                    <td>✨ Design de Sobrancelhas + Henna</td>
+                    <td class="preco">R$ 45,00</td>
+                </tr>
+                <tr>
+                    <td>🎀 Combo Hello Kitty Diva (Todos os serviços)</td>
+                    <td class="preco">R$ 260,00</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div>
+            <a href="index.html#agendamento" class="btn-acao">📅 Agendar Agora ⚡</a>
+            <a href="login.html" class="btn-acao btn-outline">🔐 Fazer Login</a>
+            <a href="cadastro.html" class="btn-acao btn-outline">📝 Criar Conta</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+
